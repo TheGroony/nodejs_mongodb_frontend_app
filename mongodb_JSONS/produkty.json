@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "5fe9f66a823c72ec538d724e"
+  },
+  "produkt": "Stůl dřevěný",
+  "znacka": "Adolsten",
+  "skladem": 15,
+  "cena_kus": 4499
+},{
+  "_id": {
+    "$oid": "5fe9f6bf823c72ec538d724f"
+  },
+  "produkt": "Skříň šatní",
+  "znacka": "Moreera",
+  "skladem": 4,
+  "cena_kus": 12999
+},{
+  "_id": {
+    "$oid": "5fe9f6ed823c72ec538d7250"
+  },
+  "produkt": "Šuplík dřevěný",
+  "znacka": "Kranker",
+  "skladem": 21,
+  "cena_kus": 649
+},{
+  "_id": {
+    "$oid": "5fe9f721823c72ec538d7251"
+  },
+  "produkt": "Židle pletená",
+  "znacka": "Omahuer",
+  "skladem": 15,
+  "cena_kus": 1299
+},{
+  "_id": {
+    "$oid": "5fe9f74a823c72ec538d7252"
+  },
+  "produkt": "Židle kuchyňská",
+  "znacka": "Foomakur",
+  "skladem": 34,
+  "cena_kus": 499
+},{
+  "_id": {
+    "$oid": "5fe9f77e823c72ec538d7253"
+  },
+  "produkt": "Stolek skleněný",
+  "znacka": "Gloserer",
+  "skladem": 7,
+  "cena_kus": 3449
+},{
+  "_id": {
+    "$oid": "5fe9f7e4823c72ec538d7254"
+  },
+  "produkt": "Polička dřevěná",
+  "znacka": "Ukurer",
+  "skladem": 18,
+  "cena_kus": 299
+}]

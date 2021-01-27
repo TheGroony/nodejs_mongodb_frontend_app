@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "5fea1a1a823c72ec538d7268"
+  },
+  "zakaznik": {
+    "$oid": "5fe9f281823c72ec538d7244"
+  },
+  "k_produktu": {
+    "$oid": "5fe9f6bf823c72ec538d724f"
+  },
+  "dotaz": "Hezký den, produkt je již sestavený nebo ho je možné sestavit až na místě?",
+  "stav": "Uzavřeno",
+  "reakce": {
+    "vyrizuje": {
+      "$oid": "5fea15de823c72ec538d7260"
+    },
+    "krestni_jmeno_zamestnance": "Alexandra",
+    "prijmeni_zamestnance": "Bílová",
+    "odpoved": "Hezký den, produkt je možné po domluvě sestavit přímo na místě. Bílová"
+  }
+},{
+  "_id": {
+    "$oid": "5fea1aff823c72ec538d726d"
+  },
+  "zakaznik": {
+    "$oid": "5fe9f45d823c72ec538d724a"
+  },
+  "k_produktu": {
+    "$oid": "5fe9f66a823c72ec538d724e"
+  },
+  "dotaz": "Zdravím, jaká záruka se k tomuhle vztahuje?",
+  "stav": "Čeká se na odpověď",
+  "reakce": {
+    "vyrizuje": {
+      "$oid": "5fea15bc823c72ec538d725f"
+    },
+    "krestni_jmeno_zamestnance": "Petr",
+    "prijmeni_zamestnance": "Moskvič",
+    "odpoved": ""
+  }
+}]

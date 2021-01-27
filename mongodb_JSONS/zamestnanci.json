@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "5fea1561823c72ec538d725e"
+  },
+  "krestni_jmeno": "Aleš",
+  "prijmeni": "Zlámal",
+  "email": "zlamal@eshop.com",
+  "prihlasovaci_udaje": {
+    "login": "zlamal",
+    "heslo": "zlamal123"
+  }
+},{
+  "_id": {
+    "$oid": "5fea15bc823c72ec538d725f"
+  },
+  "krestni_jmeno": "Petr",
+  "prijmeni": "Moskvič",
+  "email": "moskvic@eshop.com",
+  "prihlasovaci_udaje": {
+    "login": "moskvic",
+    "heslo": "moskvic123"
+  }
+},{
+  "_id": {
+    "$oid": "5fea15de823c72ec538d7260"
+  },
+  "krestni_jmeno": "Alexandra",
+  "prijmeni": "Bílová",
+  "email": "bilova@eshop.com",
+  "prihlasovaci_udaje": {
+    "login": "bilova",
+    "heslo": "bilova123"
+  }
+}]

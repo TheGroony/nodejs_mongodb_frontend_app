@@ -1,0 +1,18 @@
+<%- include("partials/header") %>
+<%- include("partials/buttons") %>
+<h2 class="nazev">Objednávky</h3>
+<main>
+            <% for(let i = 0; i < data.length; i++){ %>
+                <div class="container">
+                   <h4 class="id"> ID Objednávky: <%= data[i]._id %></h3>
+                    <b><p class="objednal">Objednal:</b> <%= data[i].objednal %></p> 
+                    <b><p class="produkt">Produkt: </b><%= data[i].info_objednavky.produkt %></p> 
+                    <b><p class="mnozstvi">Množství: </b><%= data[i].info_objednavky.mnozstvi %></p> 
+                    <b><p class="cena_celkem">Celková cena: </b><%= data[i].info_objednavky.cena_celkem %></p> 
+                    <b><p class="datum_objednani">Datum objednání:</b> <%= data[i].datum_objednani.getUTCFullYear() + "/" + data[i].datum_objednani.getUTCMonth() + "/" + data[i].datum_objednani.getUTCDate()%></p> 
+                    <b><p class="stav_objednavky">Stav objednávky:</b> <%= data[i].stav_objednavky %></p> 
+                    <b><p class="dopravce">Dopravce: </b><%= data[i].dopravce %></p> 
+                </div>
+                <% } %>
+<%- include("partials/selectButtons") %>
+<%- include("partials/footer") %>

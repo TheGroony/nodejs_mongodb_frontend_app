@@ -1,0 +1,23 @@
+<%- include("partials/header") %>
+<%- include("partials/buttons") %>
+<h2 class="nazev">Podpora</h3>
+<main>
+            <% for(let i = 0; i < data.length; i++){ %>
+                <div class="container">
+                   <h4 class="id"> ID dotazu: <%= data[i]._id %></h3>
+                    <b><p class="zakaznik">Zákazník:</b> <%= data[i].zakaznik %></p> 
+                    <b><p class="k_produktu">K produktu: </b><%= data[i].k_produktu %></p> 
+                    <b><p class="dotaz">Dotaz: </b><%= data[i].dotaz %></p> 
+                    <b><p class="stav">Stav: </b><%= data[i].stav %></p>                   
+                    <b><u>Reakce</u></b>   
+                    <b><p class="vyrizuje">Vyřizuje: </b><%= data[i].reakce.vyrizuje %></p>                  
+                    <b><p class="krestni_jmeno_zamestnance">Křestní jméno zaměstnance: </b><%= data[i].reakce.krestni_jmeno_zamestnance %></p>                  
+                    <b><p class="prijmeni_zamestnance">Příjmení zaměstnance: </b><%= data[i].reakce.prijmeni_zamestnance %></p>                  
+                    <% if(data[i].reakce.odpoved == "") { %> <b><p class="odpoved">Odpověď:</b> Žádná</p><% }
+                    else {
+                    %> <b><p class="odpoved">Odpověď:</b> <%= data[i].reakce.odpoved %></p>
+                     <% } %>             
+                </div>
+                <% } %>
+<%- include("partials/selectButtons") %>
+<%- include("partials/footer") %>

@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+
+}
+
+.buttons {
+    padding: 1rem;
+    background-color: #4CAF50;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+
+.selectButtons {
+    margin: 1rem;
+    padding: 1rem;
+    background-color:  #4CAF50;
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.spodek {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons a {
+    flex: 1 0 1;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    background-color: #4CAF50;
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 2px solid #ddd;
+    border-radius: 2.5rem;
+    transition: background-color 0.2s;
+}
+
+.selectButtons a {
+    flex: 1 0 1;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 2px solid #ddd;
+    border-radius: 2.5rem;
+    transition: background-color 0.2s;
+}
+
+.nadpis {
+    margin: 1rem;
+}
+
+h3 {
+    margin-top: 1rem;
+}
+
+.container {
+    background-color:rgb(118, 197, 72);
+    color: white;
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 3px solid white;
+    border-radius: 1rem;
+    transition: background-color 0.2s;
+}
+
+
+.id {
+    color: rgb(255, 218, 10);
+}
+
+.container p {
+    margin: 0.5rem;
+
+}
+.container:hover {
+    background-color:rgb(105, 177, 63);
+}
+
+.nazev {
+    margin-bottom: -4rem;
+    margin-top: 3rem;
+}
+
+.buttons a:hover {
+    background-color: #48a74b;
+}
+.selectButtons a:hover {
+    background-color: #449b47;
+}
+.buttons a:active {
+    background-color:  #3c8d3f;
+}
+.selectButtons a:active {
+    background-color: #408d43;
+}

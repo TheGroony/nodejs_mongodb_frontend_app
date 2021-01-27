@@ -1,0 +1,17 @@
+<%- include("partials/header") %>
+<%- include("partials/buttons") %>
+<h2 class="nazev">Zaměstnanci</h3>
+<main>
+            <% for(let i = 0; i < data.length; i++){ %>
+                <div class="container">
+                   <h4 class="id"> ID Zaměstnance: <%= data[i]._id %></h3>
+                    <b><p class="jmeno">Křestní jméno:</b> <%= data[i].krestni_jmeno %></p> 
+                    <b><p class="prijmeni">Příjmení: </b><%= data[i].prijmeni %></p> 
+                    <b><p class="email">Email: </b><%= data[i].email %></p> 
+                    <u><b>Přihlašovací údaje</b></u>
+                    <b><p class="login">login:</b> <%= data[i].prihlasovaci_udaje.login %></p> 
+                    <b><p class="heslo">heslo:</b> <%= data[i].prihlasovaci_udaje.heslo %></p> 
+                </div>
+                <% } %>
+<%- include("partials/selectButtons") %>
+<%- include("partials/footer") %>

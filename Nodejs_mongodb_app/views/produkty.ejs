@@ -1,0 +1,15 @@
+<%- include("partials/header") %>
+<%- include("partials/buttons") %>
+<h2 class="nazev">Produkty</h3>
+<main>
+            <% for(let i = 0; i < data.length; i++){ %>
+                <div class="container">
+                   <h4 class="id"> ID Produktu: <%= data[i]._id %></h3>
+                    <b><p class="produkt">Produkt:</b> <%= data[i].produkt %></p> 
+                    <b><p class="znacka">Značka: </b><%= data[i].znacka %></p> 
+                    <b><p class="skladem">Skladem: </b><%= data[i].skladem %></p> 
+                    <b><p class="cena_kus">Cena za kus: </b><%= data[i].cena_kus %></p>                   
+                </div>
+                <% } %>
+<%- include("partials/selectButtons") %>
+<%- include("partials/footer") %>

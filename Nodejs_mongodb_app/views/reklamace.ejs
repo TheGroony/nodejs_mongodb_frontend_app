@@ -1,0 +1,30 @@
+<%- include("partials/header") %>
+<%- include("partials/buttons") %>
+<h2 class="nazev">Reklamace</h3>
+<main>
+    <% if(data.length == 0) { %>  
+        <div class="container">
+            <h3>Žádná data</h3>
+        </div>
+        <% } else {%>
+            <% for(let i = 0; i < data.length; i++){ %>
+                <div class="container">
+                   <h4 class="id"> ID reklamace: <%= data[i]._id %></h3>
+                    <b><u>Info zákazníka</u></b>  
+                    <b><p class="id_zakaznika">ID Zákazníka:</b> <%= data[i].zakaznik.id_zakaznika %></p> 
+                    <b><p class="krestni_jmeno">Křestní jméno: </b><%= data[i].zakaznik.krestni_jmeno %></p> 
+                    <b><p class="prijmeni">Příjmení: </b><%= data[i].zakaznik.prijmeni %></p> 
+                    <b><u>Info produktu</u></b> 
+                    <b><p class="id_produktu">ID Produktu: </b><%= data[i].produkt.id_produktu %></p>                   
+                    <b><p class="mnozstvi">Množství: </b><%= data[i].produkt.mnozstvi %></p>                  
+                    <b><p class="cena_celkem">Zaplaceno: </b><%= data[i].produkt.cena_celkem %></p>                  
+                    <b><p class="duvod">Důvod: </b><%= data[i].duvod %></p>                                 
+                    <b><p class="stav_reklamace">Stav reklamace: </b><%= data[i].stav_reklamace %></p>    
+                    <b><u>Vyřizuje</u></b>               
+                    <b><p class="id_zamestnance">ID zaměstnance: </b><%= data[i].vyrizuje.id_zamestnance %></p>                           
+                    <b><p class="krestni_jmeno_zamestnance">Křestní jméno zaměstnance: </b><%= data[i].vyrizuje.krestni_jmeno_zamestnance %></p>                           
+                    <b><p class="prijmeni_zamestnance">Příjmení zaměstnance: </b><%= data[i].vyrizuje.prijmeni_zamestnance %></p>                           
+                </div>
+                <% }}%>
+<%- include("partials/selectButtons") %>
+<%- include("partials/footer") %>

@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "5fea17d6823c72ec538d7262"
+  },
+  "zakaznik": {
+    "id_zakaznika": {
+      "$oid": "5fe9f22c823c72ec538d7243"
+    },
+    "krestni_jmeno": "Filip",
+    "prijmeni": "Veselovský"
+  },
+  "produkt": {
+    "id_produktu": {
+      "$oid": "5fe9f74a823c72ec538d7252"
+    },
+    "mnozstvi": 11,
+    "cena_celkem": 5498
+  },
+  "duvod": "Produkt přišel zlomený, nejspíš se poškodil již při přepravě",
+  "stav_reklamace": "Schváleno",
+  "vyrizuje": {
+    "id_zamestnance": {
+      "$oid": "5fea1561823c72ec538d725e"
+    },
+    "krestni_jmeno_zamestnance": "Aleš",
+    "prijmeni_zamestnance": "Zlámal"
+  }
+}]

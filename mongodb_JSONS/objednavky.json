@@ -1,0 +1,115 @@
+[{
+  "_id": {
+    "$oid": "5fe9f94c823c72ec538d7255"
+  },
+  "objednal": {
+    "$oid": "5fe9f18e823c72ec538d7242"
+  },
+  "info_objednavky": {
+    "produkt": {
+      "$oid": "5fe9f77e823c72ec538d7253"
+    },
+    "mnozstvi": 5,
+    "cena_celkem": 17245
+  },
+  "datum_objednani": {
+    "$date": "2020-05-04T22:00:00Z"
+  },
+  "stav_objednavky": "Expedováno",
+  "dopravce": "DHL Express"
+},{
+  "_id": {
+    "$oid": "5fe9fa59823c72ec538d7259"
+  },
+  "objednal": {
+    "$oid": "5fe9f281823c72ec538d7244"
+  },
+  "info_objednavky": {
+    "produkt": {
+      "$oid": "5fe9f721823c72ec538d7251"
+    },
+    "mnozstvi": 4,
+    "cena_celkem": 5196
+  },
+  "datum_objednani": {
+    "$date": "2020-12-29T23:00:00Z"
+  },
+  "stav_objednavky": "Připravuje se",
+  "dopravce": "Česká pošta"
+},{
+  "_id": {
+    "$oid": "5fe9fae8823c72ec538d725a"
+  },
+  "objednal": {
+    "$oid": "5fe9f22c823c72ec538d7243"
+  },
+  "info_objednavky": {
+    "produkt": {
+      "$oid": "5fe9f74a823c72ec538d7252"
+    },
+    "mnozstvi": 11,
+    "cena_celkem": 5489
+  },
+  "datum_objednani": {
+    "$date": "2020-07-04T22:00:00Z"
+  },
+  "stav_objednavky": "Doručeno",
+  "dopravce": "DHL Express"
+},{
+  "_id": {
+    "$oid": "5fe9fb5a823c72ec538d725b"
+  },
+  "objednal": {
+    "$oid": "5fe9f3d8823c72ec538d7248"
+  },
+  "info_objednavky": {
+    "produkt": {
+      "$oid": "5fe9f7e4823c72ec538d7254"
+    },
+    "mnozstvi": 2,
+    "cena_celkem": 598
+  },
+  "datum_objednani": {
+    "$date": "2020-10-11T22:00:00Z"
+  },
+  "stav_objednavky": "Doručuje se",
+  "dopravce": "UPS Express"
+},{
+  "_id": {
+    "$oid": "5fe9fbca823c72ec538d725c"
+  },
+  "objednal": {
+    "$oid": "5fe9f45d823c72ec538d724a"
+  },
+  "info_objednavky": {
+    "produkt": {
+      "$oid": "5fe9f66a823c72ec538d724e"
+    },
+    "mnozstvi": 1,
+    "cena_celkem": 4499
+  },
+  "datum_objednani": {
+    "$date": "2020-12-01T23:00:00Z"
+  },
+  "stav_objednavky": "Expedováno",
+  "dopravce": "DHL Express"
+},{
+  "_id": {
+    "$oid": "5fe9fc07823c72ec538d725d"
+  },
+  "objednal": {
+    "$oid": "5fe9f417823c72ec538d7249"
+  },
+  "info_objednavky": {
+    "produkt": {
+      "$oid": "5fe9f6ed823c72ec538d7250"
+    },
+    "mnozstvi": 6,
+    "cena_celkem": 3894
+  },
+  "datum_objednani": {
+    "$date": "2020-05-20T22:00:00Z"
+  },
+  "stav_objednavky": "Připravuje se",
+  "dopravce": "Česká pošta"
+}]

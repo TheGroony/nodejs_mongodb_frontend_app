@@ -1,0 +1,22 @@
+<%- include("partials/header") %>
+<%- include("partials/buttons") %>
+<h2 class="nazev">Zákazníci</h3>
+<main> 
+    <% if(data.length == 0) { %>   
+        <div class="container">
+            <h3>Žádná data</h3>
+        </div>
+        <% } else {%>
+            <% for(let i = 0; i < data.length; i++){ %>
+                <div class="container">
+                   <h4 class="id"> ID Zákazníka: <%= data[i]._id %></h3>
+                    <b><p class="jmeno">Křestní jméno:</b> <%= data[i].krestni_jmeno %></p> 
+                    <b><p class="prijmeni">Příjmení: </b><%= data[i].prijmeni %></p> 
+                    <b><p class="email">Email: </b><%= data[i].email %></p> 
+                    <b><p class="adresa">Adresa:</b> <%= data[i].adresa %></p> 
+                    <b><p class="mesto">Město:</b> <%= data[i].mesto %></p> 
+                    <b><p class="vek">Věk: </b><%= data[i].vek %></p> 
+                </div>
+                <% } }%>
+<%- include("partials/selectButtons") %>
+<%- include("partials/footer") %>
